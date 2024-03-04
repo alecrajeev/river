@@ -231,8 +231,6 @@ func (d *decoder) decode(val Value, into reflect.Value) (err error) {
 			return nil
 		}
 
-		fmt.Println("Expected a %s" + into.Type().String() + " but got a " + convVal.rv.Type().String())
-
 		return Error{
 			Value: val,
 			Inner: fmt.Errorf("expected function(%s), got function(%s)", into.Type(), convVal.rv.Type()),
