@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/river/parser"
-	"github.com/grafana/river/printer"
-	"github.com/grafana/river/token"
-	"github.com/grafana/river/token/builder"
+	"github.com/alecrajeev/river/parser"
+	"github.com/alecrajeev/river/printer"
+	"github.com/alecrajeev/river/token"
+	"github.com/alecrajeev/river/token/builder"
 	"github.com/stretchr/testify/require"
 )
 

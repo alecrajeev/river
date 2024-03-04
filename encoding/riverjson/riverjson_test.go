@@ -3,9 +3,9 @@ package riverjson_test
 import (
 	"testing"
 
-	"github.com/grafana/river"
-	"github.com/grafana/river/encoding/riverjson"
-	"github.com/grafana/river/rivertypes"
+	"github.com/alecrajeev/river"
+	"github.com/alecrajeev/river/encoding/riverjson"
+	"github.com/alecrajeev/river/rivertypes"
 	"github.com/stretchr/testify/require"
 )
 

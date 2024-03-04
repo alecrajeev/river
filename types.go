@@ -1,6 +1,6 @@
 package river
 
-import "github.com/grafana/river/internal/value"
+import "github.com/alecrajeev/river/internal/value"
 
 // Our types in this file are re-implementations of interfaces from
 // value.Capsule. They are *not* defined as type aliases, since pkg.go.dev

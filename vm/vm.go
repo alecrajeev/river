@@ -6,12 +6,12 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/grafana/river/ast"
-	"github.com/grafana/river/diag"
-	"github.com/grafana/river/internal/reflectutil"
-	"github.com/grafana/river/internal/rivertags"
-	"github.com/grafana/river/internal/stdlib"
-	"github.com/grafana/river/internal/value"
+	"github.com/alecrajeev/river/ast"
+	"github.com/alecrajeev/river/diag"
+	"github.com/alecrajeev/river/internal/reflectutil"
+	"github.com/alecrajeev/river/internal/rivertags"
+	"github.com/alecrajeev/river/internal/stdlib"
+	"github.com/alecrajeev/river/internal/value"
 )
 
 // Evaluator evaluates River AST nodes into Go values. Each Evaluator is bound

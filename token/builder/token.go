@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/grafana/river/parser"
-	"github.com/grafana/river/printer"
-	"github.com/grafana/river/token"
+	"github.com/alecrajeev/river/parser"
+	"github.com/alecrajeev/river/printer"
+	"github.com/alecrajeev/river/token"
 )
 
 // A Token is a wrapper around token.Token which contains the token type

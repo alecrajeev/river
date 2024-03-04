@@ -7,8 +7,8 @@ import (
 	"math"
 	"text/tabwriter"
 
-	"github.com/grafana/river/ast"
-	"github.com/grafana/river/token"
+	"github.com/alecrajeev/river/ast"
+	"github.com/alecrajeev/river/token"
 )
 
 // Config configures behavior of the printer.

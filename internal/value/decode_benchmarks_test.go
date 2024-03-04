@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/grafana/river/internal/value"
+	"github.com/alecrajeev/river/internal/value"
 )
 
 func BenchmarkObjectDecode(b *testing.B) {

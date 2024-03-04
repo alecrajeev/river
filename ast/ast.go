@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/grafana/river/token"
+	"github.com/alecrajeev/river/token"
 )
 
 // Node represents any node in the AST.

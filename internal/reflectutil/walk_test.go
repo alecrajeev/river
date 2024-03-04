@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/grafana/river/internal/reflectutil"
-	"github.com/grafana/river/internal/rivertags"
+	"github.com/alecrajeev/river/internal/reflectutil"
+	"github.com/alecrajeev/river/internal/rivertags"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

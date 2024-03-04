@@ -12,9 +12,9 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/grafana/river/parser"
-	"github.com/grafana/river/token/builder"
-	"github.com/grafana/river/vm"
+	"github.com/alecrajeev/river/parser"
+	"github.com/alecrajeev/river/token/builder"
+	"github.com/alecrajeev/river/vm"
 )
 
 // Marshal returns the pretty-printed encoding of v as a River configuration

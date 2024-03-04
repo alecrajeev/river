@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/grafana/river/ast"
-	"github.com/grafana/river/parser"
-	"github.com/grafana/river/vm"
+	"github.com/alecrajeev/river/ast"
+	"github.com/alecrajeev/river/parser"
+	"github.com/alecrajeev/river/vm"
 	"github.com/stretchr/testify/require"
 )
 

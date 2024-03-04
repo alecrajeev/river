@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/grafana/river/ast"
-	"github.com/grafana/river/diag"
-	"github.com/grafana/river/internal/value"
-	"github.com/grafana/river/printer"
-	"github.com/grafana/river/token/builder"
+	"github.com/alecrajeev/river/ast"
+	"github.com/alecrajeev/river/diag"
+	"github.com/alecrajeev/river/internal/value"
+	"github.com/alecrajeev/river/printer"
+	"github.com/alecrajeev/river/token/builder"
 )
 
 // makeDiagnostic tries to convert err into a diag.Diagnostic. err must be an

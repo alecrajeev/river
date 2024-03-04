@@ -3,7 +3,7 @@ package reflectutil
 import (
 	"reflect"
 
-	"github.com/grafana/river/internal/rivertags"
+	"github.com/alecrajeev/river/internal/rivertags"
 )
 
 // GetOrAlloc returns the nested field of value corresponding to index.

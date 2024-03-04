@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/grafana/river/internal/value"
-	"github.com/grafana/river/token"
+	"github.com/alecrajeev/river/internal/value"
+	"github.com/alecrajeev/river/token"
 )
 
 func valueFromLiteral(lit string, tok token.Token) (value.Value, error) {

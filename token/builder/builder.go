@@ -9,10 +9,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/grafana/river/internal/reflectutil"
-	"github.com/grafana/river/internal/rivertags"
-	"github.com/grafana/river/internal/value"
-	"github.com/grafana/river/token"
+	"github.com/alecrajeev/river/internal/reflectutil"
+	"github.com/alecrajeev/river/internal/rivertags"
+	"github.com/alecrajeev/river/internal/value"
+	"github.com/alecrajeev/river/token"
 )
 
 var goRiverDefaulter = reflect.TypeOf((*value.Defaulter)(nil)).Elem()

@@ -3,7 +3,7 @@ package value
 import (
 	"reflect"
 
-	"github.com/grafana/river/internal/rivertags"
+	"github.com/alecrajeev/river/internal/rivertags"
 )
 
 // tagsCache caches the river tags for a struct type. This is never cleared,

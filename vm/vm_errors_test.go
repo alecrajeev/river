@@ -3,8 +3,8 @@ package vm_test
 import (
 	"testing"
 
-	"github.com/grafana/river/parser"
-	"github.com/grafana/river/vm"
+	"github.com/alecrajeev/river/parser"
+	"github.com/alecrajeev/river/vm"
 	"github.com/stretchr/testify/require"
 )
 

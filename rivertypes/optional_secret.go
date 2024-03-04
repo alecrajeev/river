@@ -3,9 +3,9 @@ package rivertypes
 import (
 	"fmt"
 
-	"github.com/grafana/river/internal/value"
-	"github.com/grafana/river/token"
-	"github.com/grafana/river/token/builder"
+	"github.com/alecrajeev/river/internal/value"
+	"github.com/alecrajeev/river/token"
+	"github.com/alecrajeev/river/token/builder"
 )
 
 // OptionalSecret holds a potentially sensitive value. When IsSecret is true,

@@ -2,8 +2,8 @@
 package parser
 
 import (
-	"github.com/grafana/river/ast"
-	"github.com/grafana/river/token"
+	"github.com/alecrajeev/river/ast"
+	"github.com/alecrajeev/river/token"
 )
 
 // ParseFile parses an entire River configuration file. The data parameter

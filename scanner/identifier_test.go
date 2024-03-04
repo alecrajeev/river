@@ -3,7 +3,7 @@ package scanner_test
 import (
 	"testing"
 
-	"github.com/grafana/river/scanner"
+	"github.com/alecrajeev/river/scanner"
 	"github.com/stretchr/testify/require"
 )
 

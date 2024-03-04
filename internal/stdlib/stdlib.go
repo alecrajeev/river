@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/grafana/river/internal/value"
-	"github.com/grafana/river/rivertypes"
+	"github.com/alecrajeev/river/internal/value"
+	"github.com/alecrajeev/river/rivertypes"
 	"github.com/ohler55/ojg/jp"
 	"github.com/ohler55/ojg/oj"
 )

@@ -1,4 +1,4 @@
-module github.com/grafana/river
+module github.com/alecrajeev/river
 
 go 1.20
 

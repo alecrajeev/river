@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/alecrajeev/river/token"
 	"github.com/fatih/color"
-	"github.com/grafana/river/token"
 )
 
 const tabWidth = 4

@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/grafana/river/internal/value"
-	"github.com/grafana/river/parser"
-	"github.com/grafana/river/rivertypes"
-	"github.com/grafana/river/vm"
+	"github.com/alecrajeev/river/internal/value"
+	"github.com/alecrajeev/river/parser"
+	"github.com/alecrajeev/river/rivertypes"
+	"github.com/alecrajeev/river/vm"
 	"github.com/stretchr/testify/require"
 )
 

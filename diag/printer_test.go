@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/grafana/river/diag"
-	"github.com/grafana/river/token"
+	"github.com/alecrajeev/river/diag"
+	"github.com/alecrajeev/river/token"
 	"github.com/stretchr/testify/require"
 )
 

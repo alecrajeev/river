@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/grafana/river"
+	"github.com/alecrajeev/river"
 )
 
 func ExampleUnmarshal() {

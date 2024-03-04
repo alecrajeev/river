@@ -9,8 +9,8 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/grafana/river/parser"
-	"github.com/grafana/river/printer"
+	"github.com/alecrajeev/river/parser"
+	"github.com/alecrajeev/river/printer"
 	"github.com/stretchr/testify/require"
 )
 

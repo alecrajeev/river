@@ -5,9 +5,9 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/grafana/river/internal/value"
-	"github.com/grafana/river/rivertypes"
-	"github.com/grafana/river/token"
+	"github.com/alecrajeev/river/internal/value"
+	"github.com/alecrajeev/river/rivertypes"
+	"github.com/alecrajeev/river/token"
 )
 
 func evalBinop(lhs value.Value, op token.Token, rhs value.Value) (value.Value, error) {

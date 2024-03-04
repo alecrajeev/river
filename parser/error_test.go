@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grafana/river/diag"
-	"github.com/grafana/river/scanner"
-	"github.com/grafana/river/token"
+	"github.com/alecrajeev/river/diag"
+	"github.com/alecrajeev/river/scanner"
+	"github.com/alecrajeev/river/token"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
